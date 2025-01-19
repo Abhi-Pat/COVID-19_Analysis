@@ -61,32 +61,7 @@ This repository contains an in-depth analysis and visualization of COVID-19 data
     - Used this function to visualize data for countries like **Brazil**, **US**, and **India**.
     - Utilized Plotly's `make_subplots` to generate multiple charts (Confirmed, Deaths, Recovered, and Active cases) for a given country.
 
-### Project Structure:
 
-- **`data_cleaning.py`**: Contains functions for data cleaning, removing missing values, and preparing the data for analysis.
-- **`visualization.py`**: Includes functions to generate all the various plots, including bar charts, pie charts, tree maps, and line plots.
-- **`main.py`**: Contains the main logic for importing data, processing, and visualizing it.
-- **`data/`**: Folder containing the raw CSV files used for the analysis.
-- **`requirements.txt`**: Lists all the Python libraries and dependencies required to run the project, including `pandas`, `numpy`, `matplotlib`, `seaborn`, `plotly`, etc.
-
-### How to Run:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/covid19-data-analysis.git
-   ```
-
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the main script:
-   ```bash
-   python main.py
-   ```
-
-4. The visualizations can be viewed interactively through Plotly or exported to static images.
 
 ### Conclusion:
 
